@@ -58,7 +58,7 @@ void contatos(tcontato agenda[], int *total) {
     }
     
     printf("Digite o nome: ");
-    scanf(" %[^\n]", agenda[*total].nome); // %[^\n] para ler nomes com espaços
+    scanf(" %[^\n]", agenda[*total].nome); 
     printf("Digite o telefone: ");
     scanf(" %[^\n]", agenda[*total].telefone);
     
