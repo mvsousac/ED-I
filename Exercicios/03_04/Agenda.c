@@ -73,7 +73,7 @@ void exibir(tcontato agenda[], int total) {
 }
 
 void salvar(tcontato agenda[], int total) {
-    FILE *arq_salvar = fopen("arquivo.csv", "w"); // "w" para escrever
+    FILE *arq_salvar = fopen("arquivo.csv", "w"); 
     if(arq_salvar == NULL) {
         printf("Erro ao criar arquivo\n");
         return;
