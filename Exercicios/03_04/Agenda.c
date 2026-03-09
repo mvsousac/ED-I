@@ -43,7 +43,7 @@ int leitura(tcontato agenda[]) {
     if(arquivo == NULL) return 0;
 
     int i = 0;
-    // Lógica correta de leitura CSV com != EOF
+    
     while(i < 100 && fscanf(arquivo, " %[^;];%[^\n]\n", agenda[i].nome, agenda[i].telefone) != EOF) {
         i = i + 1;
     }
