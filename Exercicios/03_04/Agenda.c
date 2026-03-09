@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+// teste
+
 typedef struct {
     char nome[128];
     char telefone[32];
