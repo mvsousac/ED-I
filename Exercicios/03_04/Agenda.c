@@ -6,7 +6,7 @@ typedef struct {
     char telefone[32];
 } tcontato;
 
-// PROTÓTIPOS CORRIGIDOS
+
 int leitura(tcontato agenda[]); 
 void contatos(tcontato agenda[], int *total); // Adicionado []
 void exibir(tcontato agenda[], int total);
