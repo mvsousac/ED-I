@@ -15,7 +15,6 @@ void salvar(tcontato agenda[], int total);
 int main() {
     tcontato agenda[100];
     int opcao, a;
-    // CORREÇÃO: Passando apenas agenda, o retorno vai para a variável total
     int total = leitura(agenda); 
     
     do {
@@ -40,7 +39,7 @@ int main() {
 }
 
 int leitura(tcontato agenda[]) {
-    FILE *arquivo = fopen("agenda.csv", "r"); // "r" para ler
+    FILE *arquivo = fopen("agenda.csv", "r"); 
     if(arquivo == NULL) return 0;
 
     int i = 0;
