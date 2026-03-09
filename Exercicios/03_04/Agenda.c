@@ -8,7 +8,7 @@ typedef struct {
 
 
 int leitura(tcontato agenda[]); 
-void contatos(tcontato agenda[], int *total); // Adicionado []
+void contatos(tcontato agenda[], int *total); 
 void exibir(tcontato agenda[], int total);
 void salvar(tcontato agenda[], int total);
 
